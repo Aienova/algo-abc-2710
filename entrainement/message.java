@@ -20,9 +20,8 @@ public class message {
          System.out.println("\n Bonjour "+VotreNom+", enchanté !");
         System.out.println("\n Vous avez " +VotreAge+" ans");
 
-        if(!response){ // Par défaut le if vérifie si c'est vrai
+        if(!response){ // Par défaut le if vérifie si c'est vrai, si on ajoute ! alors il teste si c'est faux
 
-        
                     System.out.println("Vous n'aimez pas les chiens"); 
 
         }else{
